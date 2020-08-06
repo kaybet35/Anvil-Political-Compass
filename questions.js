@@ -21,7 +21,7 @@ document.interview = [
     },
     {
         weight: .5,
-        title: 'I think fight clubs, during wars, are a bad idea and should be stopped.Even if it is near the end of a war',
+        title: 'I think fight clubs, during wars, are a bad idea and should be stopped. Even if it is near the end of a war',
         type: 'sweatiness',
     },
     {
@@ -51,7 +51,7 @@ document.interview = [
     },
     {
         weight: .25,
-        title: 'I hate it when people joke around and talk about random stuff in the in -game chats or discord voice channels.Comms should be left clear and not be clogged up',
+        title: 'I hate it when people joke around and talk about random stuff in the in-game chats or discord voice channels. Comms should be left clear and not be clogged up',
         type: 'sweatiness',
     },
     {
@@ -96,7 +96,7 @@ document.interview = [
     },
     {
         weight: .75,
-        title: 'I will do things that are boring to help the team I am on win',
+        title: 'I will do things that are boring to help the team, I am on, win',
         type: 'sweatiness',
     },
     {
@@ -131,7 +131,7 @@ document.interview = [
     },
     {
         weight: -.25,
-        title: ' I sometimes fraternize with the enemy in-game.For example, by being in a fight club that included both factions or by having a long conversation in-game with a member of the other team',
+        title: 'I sometimes fraternize with the enemy in-game. For example, by being in a fight club that included both factions or by having a long conversation in-game with a member of the other team',
         type: 'loyalist',
     },
     {
@@ -176,12 +176,12 @@ document.interview = [
     },
     {
         weight: .5,
-        title: 'I will sometimes take charge and tell other players what to do in -game so we can win the battle.Either at the front or through in-game chat and map posts',
+        title: 'I will sometimes take charge and tell other players what to do in-game so we can win the battle. Either at the front or through in-game chat and map posts',
         type: 'sweatiness',
     },
     {
         weight: .25,
-        title: 'I think one of the factions has morally and or skill wise better players',
+        title: 'I think one of the factions has morally, and or skill wise, better players',
         type: 'loyalist',
     },
     {
