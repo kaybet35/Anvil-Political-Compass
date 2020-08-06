@@ -17,7 +17,7 @@ document.profiles = [
         y: -.90
     },
     {
-        player: 'Shitposting King',
+        player: 'Sparkon',
         x: -.89,
         y: .81
     },
@@ -52,9 +52,9 @@ document.profiles = [
         y: -.51
     },
     {  
-        player: 'Icanari',
-        x: -.15,
-        y: -.45
+        player: 'Apollo',
+        x: .57,
+        y: -.31
     },
     {
         player: 'SHIV/Kass',
@@ -82,8 +82,68 @@ document.profiles = [
         y: .84
     },
     {
-        player: 'Trekker',
+        player: 'Trekker/Fireman',
         x: .44,
         y: .68
+    },
+    { 
+        player: 'Cain',
+        x: -1.00,
+        y: -.9
+    },
+    {
+        player: 'Anclet',
+        x: .12,
+        y: -.14
+    },
+    {
+        player: 'Tanman',
+        x: 0,
+        y: -.74
+    },
+    {
+        player: 'clanman',
+        x: -.45,
+        y: -.82
+    },
+    {
+        player: 'Vax',
+        x: -.14,
+        y: .52
+    },
+    {
+        player: 'Sarmat',
+        x: .2,
+        y: .93
+    },
+    {
+        player: 'Teddy',
+        x: .65,
+        y: .66
+    },
+    {
+        player: 'North',
+        x: .07,
+        y: .05
+    },
+    {
+        player: 'Database',
+        x: .2,
+        y: .56,
+    },
+    {
+        player: 'Darth',
+        x: .36,
+        y: .31
+    },
+    {
+        player: 'MLady',
+        x: .46,
+        y: -.1
+    },
+    {
+        player: 'Smiffin',
+        x: -.34,
+        y: -.84
     }
 ];
