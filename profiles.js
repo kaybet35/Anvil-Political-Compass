@@ -37,7 +37,7 @@ document.profiles = [
         y: -1
     },
     {
-        player: 'Pap',
+        player: 'Pap/Anna',
         x: .38,
         y: .18
     }, 
@@ -117,7 +117,7 @@ document.profiles = [
         y: .66
     },
     {
-        player: 'North/Moon',
+        player: 'North/Moon/Griff',
         x: .07,
         y: .05
     },
@@ -182,7 +182,7 @@ document.profiles = [
         y: .79
     },
     {
-        player: 'Data',
+        player: 'Drop',
         x: .2,
         y: .53
     },
