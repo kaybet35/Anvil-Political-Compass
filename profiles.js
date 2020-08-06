@@ -50,5 +50,11 @@ document.profiles = [
         player: 'Brownie',
         x: .28,
         y: -.51
+    },
+    {  
+        player: 'Icanari',
+        x: -.15,
+        y: -.45
     }
+        
 ];
