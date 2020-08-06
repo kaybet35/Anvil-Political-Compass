@@ -21,7 +21,21 @@ document.profiles = [
         player: 'Shitposting King',
         x: -.89,
         y: .81
+    },
+    {
+       player: 'Skaj',
+       x: -.39,
+       y: -.62
+    },
+    {
+        player: 'Weatherby',
+        x: .6,
+        y: .55
+    },
+    {
+        player: 'Chigg',
+        x: -1,
+        y: -1
     }
-
 
 ];
