@@ -286,5 +286,10 @@ document.profiles = [
         x: -.76,
         y: .57
     },
+    {
+        player: 'Sir',
+        x: -0.05,
+        y: -.17
+    }
         
 ];
