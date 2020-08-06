@@ -102,11 +102,6 @@ document.profiles = [
         y: -.74
     },
     {
-        player: 'clanman',
-        x: -.45,
-        y: -.82
-    },
-    {
         player: 'Vax',
         x: -.14,
         y: .52
@@ -127,11 +122,6 @@ document.profiles = [
         y: .05
     },
     {
-        player: 'Database',
-        x: .2,
-        y: .56,
-    },
-    {
         player: 'Darth',
         x: .36,
         y: .31
@@ -142,7 +132,7 @@ document.profiles = [
         y: -.1
     },
     {
-        player: 'Smiffin',
+        player: 'Smiffin/Clanman',
         x: -.34,
         y: -.84
     }
