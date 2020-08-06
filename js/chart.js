@@ -6,23 +6,23 @@
     function setup() {
         var height = canvas.height = canvas.parentNode.clientWidth; // use width for square aspect ratio
         var width = canvas.width = canvas.parentNode.clientWidth;
-        var padding = 0;
+        var padding = 10;
         context.clearRect(0, 0, width, height);
         context.font = '16px sans-serif';
         textHeight = context.measureText('M').width;
 
         context.save();
         context.fillStyle = '#F9BABA';
-        context.fillRect(0, 0, width / 2, height / 2);
+        context.fillRect(padding, padding, width / 2, height / 2);
 
         context.fillStyle = '#92D9F8';
-        context.fillRect(width / 2, 0, width / 2, height / 2);
+        context.fillRect(width / 2, padding, width / 2 - padding, height / 2 - padding);
 
         context.fillStyle = '#C8E4BC';
-        context.fillRect(0, height / 2, width / 2, height / 2);
+        context.fillRect(padding, height / 2, width / 2, height / 2 - padding);
 
         context.fillStyle = '#D5D587';
-        context.fillRect(width / 2, height / 2, width / 2, height / 2);
+        context.fillRect(width / 2, height / 2, width / 2 - padding, height / 2 - padding);
 
         context.restore();
 
@@ -35,32 +35,32 @@
             { text: 'Tryhard Loyalist', horizontal: 'right', vertical: 'top', x: width, y: 0 },
             { text: 'Shitposting Noot', horizontal: 'left', vertical: 'bottom', x: 0, y: height },
 
-        /*{ text: 'Authoritarianism', horizontal: 'center', vertical: 'top', x: width / 2, y: 0 },
-        { text: 'Socialism', horizontal: 'left', vertical: 'middle', x: 0, y: height / 2 },
-        { text: 'Centerism', horizontal: 'center', vertical: 'middle', x: width / 2, y: height / 2 },
-        { text: 'Capitalism', horizontal: 'right', vertical: 'middle', x: width, y: height / 2 },
-        { text: 'Libertarianism', horizontal: 'center', vertical: 'bottom', x: width / 2, y: height },*/
+            /*{ text: 'Authoritarianism', horizontal: 'center', vertical: 'top', x: width / 2, y: 0 },
+            { text: 'Socialism', horizontal: 'left', vertical: 'middle', x: 0, y: height / 2 },
+            { text: 'Centerism', horizontal: 'center', vertical: 'middle', x: width / 2, y: height / 2 },
+            { text: 'Capitalism', horizontal: 'right', vertical: 'middle', x: width, y: height / 2 },
+            { text: 'Libertarianism', horizontal: 'center', vertical: 'bottom', x: width / 2, y: height },*/
         ];
 
         document.profiles.forEach(function (p) {
-            drawProfile(p);
+            drawProfile(p, 10);
         });
 
         labels.forEach(function (label) {
-            drawText(label, 15);
+            drawText(label, 15, true);
         });
 
 
     }
 
-    function drawProfile(item) {
+    function drawProfile(item, padding) {
 
-        var height = canvas.parentNode.clientHeight;
-        var width = canvas.parentNode.clientWidth;
+        var height = canvas.parentNode.clientHeight - padding * 2;
+        var width = canvas.parentNode.clientWidth - padding * 2;
 
 
         context.save();
-        context.translate(width * (item.x + 1) / 2, height - height * (item.y + 1) / 2);
+        context.translate(width * (item.x + 1) / 2 + padding, height - height * (item.y + 1) / 2 + padding);
         context.fillStyle = '#454545';
         // add on hover
         // draw a marker or dot
@@ -76,8 +76,8 @@
                 context.fillText(item.player, 32 + 2 + radius + 2, 6);
                 var image = new Image;
                 image.src = item.image;
-                var x = parseFloat(width * (item.x + 1) / 2 + radius + 2).toFixed();
-                var y = parseFloat(height - height * (item.y + 1) / 2 - 16).toFixed();
+                var x = parseFloat(width * (item.x + 1) / 2 + radius + 2 + padding).toFixed();
+                var y = parseFloat(height - height * (item.y + 1) / 2 - 16 + padding).toFixed();
                 image.onload = () => {
                     context.drawImage(image, x, y, 32, 32);
                 };
@@ -87,8 +87,8 @@
                 context.fillText(item.player, -32 - 2 - radius - 2, 6);
                 var image = new Image;
                 image.src = item.image;
-                var x = parseFloat(width * (item.x + 1) / 2 - radius - 2 - 32 - 2).toFixed();
-                var y = parseFloat(height - height * (item.y + 1) / 2 - 16).toFixed();
+                var x = parseFloat(width * (item.x + 1) / 2 - radius - 2 - 32 - 2).toFixed();// + padding;
+                var y = parseFloat(height - height * (item.y + 1) / 2 - 16).toFixed();// + padding;
                 image.onload = () => {
                     context.drawImage(image, x, y, 32, 32);
                 };
@@ -140,7 +140,11 @@
         context.closePath();
     }
 
-    function drawText(item, pad) {
+    function drawText(item, pad, label) {
+
+        if (label === undefined)
+            label = false;
+
         context.save();
         context.textAlign = 'center';
         if (item.vertical === 'top') {
@@ -184,7 +188,12 @@
         }
         context.translate(item.x, item.y);
         context.rotate(item.r * Math.PI / 180);
-        context.fillStyle = '#454545';
+        context.fillStyle = label ? '#FFFFFF' : '#454545';
+        if (label) {
+            context.strokeStyle = '#000000';
+            context.strokeText(item.text, 0, 0);
+        }
+
         context.fillText(item.text, 0, 0);
         context.restore();
     }

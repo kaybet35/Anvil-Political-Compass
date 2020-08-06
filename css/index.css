@@ -34,9 +34,9 @@ button {
   cursor: pointer;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  margin: 0 .5rem .5rem 0;
+  margin: 4px;
   max-width: 6rem;
-  padding: 1rem;
+  padding: 2px;
   transition: box-shadow .25s ease-out;
 }
 
