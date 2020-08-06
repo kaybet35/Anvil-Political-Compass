@@ -27,7 +27,7 @@ document.profiles = [
        y: -.62
     },
     {
-        player: 'Weatherby',
+        player: 'Weatherby/Luci',
         x: .6,
         y: .55
     },
@@ -72,17 +72,12 @@ document.profiles = [
         y: .34
     },
     {
-        player: 'Luci',
-        x: .63,
-        y: .59
-    },
-    {
         player: 'Eevee',
         x: .29,
         y: .74
     },
     {
-        player: 'Augustus',
+        player: 'Kars',
         x: .90,
         y: .84
     }
