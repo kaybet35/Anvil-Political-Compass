@@ -36,6 +36,11 @@ document.profiles = [
         player: 'Chigg',
         x: -1,
         y: -1
+    },
+    {
+        player: 'Pap',
+        x: .38,
+        y: .18
     }
 
 ];
