@@ -12,7 +12,7 @@ document.profiles = [
         y: .25
     },
     {
-        player: 'Drunkle and Sunchips',
+        player: 'Drunkle/Sunchips',
         x: -.10,
         y: -.90
     },
