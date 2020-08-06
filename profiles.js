@@ -255,6 +255,11 @@ document.profiles = [
         player: 'Pupix',
         x: .43,
         y: -.75
+    },
+    {
+        player: 'TechVoid',
+        x: .49,
+        y: .34
     }
     
         
