@@ -57,7 +57,7 @@ document.profiles = [
         y: -.45
     },
     {
-        player: 'SHIV',
+        player: 'SHIV/Kass',
         x: .42,
         y: .61
     },
