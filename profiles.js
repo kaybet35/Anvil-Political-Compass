@@ -169,7 +169,7 @@ document.profiles = [
     {  
         player: 'Alarsin',
         x: -.40,
-        y: 55
+        y: .55
     },
     {
         player: 'Acq',
