@@ -1,13 +1,16 @@
 (function () {
     var canvas = document.getElementById('chart');
-    var context = canvas.getContext('2d');
+    var context = canvas.getContext('2d', { alpha: true });
     var textHeight = 0;
 
     function setup() {
         var height = canvas.height = canvas.parentNode.clientWidth; // use width for square aspect ratio
         var width = canvas.width = canvas.parentNode.clientWidth;
-        var padding = 10;
-        context.clearRect(0, 0, width, height);
+        var padding = 40;
+
+
+        context.fillStyle = '#00000000';
+        context.fillRect(0, 0, width, height);
         context.font = '16px sans-serif';
         textHeight = context.measureText('M').width;
 
@@ -43,7 +46,7 @@
         ];
 
         document.profiles.forEach(function (p) {
-            drawProfile(p, 10);
+            drawProfile(p, padding);
         });
 
         labels.forEach(function (label) {
@@ -61,7 +64,7 @@
 
         context.save();
         context.translate(width * (item.x + 1) / 2 + padding, height - height * (item.y + 1) / 2 + padding);
-        context.fillStyle = '#454545';
+        context.fillStyle = '#151515FF';
         // add on hover
         // draw a marker or dot
 
@@ -87,8 +90,8 @@
                 context.fillText(item.player, -32 - 2 - radius - 2, 6);
                 var image = new Image;
                 image.src = item.image;
-                var x = parseFloat(width * (item.x + 1) / 2 - radius - 2 - 32 - 2).toFixed();// + padding;
-                var y = parseFloat(height - height * (item.y + 1) / 2 - 16).toFixed();// + padding;
+                var x = parseFloat(width * (item.x + 1) / 2 - radius - 2 - 32 - 2).toFixed();
+                var y = parseFloat(height - height * (item.y + 1) / 2 - 16).toFixed();
                 image.onload = () => {
                     context.drawImage(image, x, y, 32, 32);
                 };
@@ -97,19 +100,24 @@
         else {
             if (item.x < 0) {
                 context.textAlign = 'left';
+                context.lineWidth = .2;
+                context.strokeText(item.player, radius + 2, 6);
                 context.fillText(item.player, radius + 2, 6);
+                context.strokeStyle = '#DDDDDDFF';
             }
             else {
                 context.textAlign = 'right';
+                context.lineWidth = .2;
+                context.strokeText(item.player, -radius - 2, 6);
                 context.fillText(item.player, -radius - 2, 6);
+                context.strokeStyle = '#DDDDDDFF';
             }
-
-
         }
 
         context.beginPath();
         context.arc(0, 0, radius, 0, 2 * Math.PI);
         context.fill();
+
 
         context.restore();
     }
@@ -188,9 +196,11 @@
         }
         context.translate(item.x, item.y);
         context.rotate(item.r * Math.PI / 180);
-        context.fillStyle = label ? '#FFFFFF' : '#454545';
+        context.fillStyle = label ? '#FFFFFFFF' : '#000000FF';
+        context.strokeStyle = '#101010FF';
+
         if (label) {
-            context.strokeStyle = '#000000';
+            context.strokeStyle = '#101010FF';
             context.strokeText(item.text, 0, 0);
         }
 
