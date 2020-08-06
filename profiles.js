@@ -142,7 +142,7 @@ document.profiles = [
         y: 1.00
     },
     {
-        player: 'Sauldor',
+        player: 'Sauldor/Alek',
         x: -.45,
         y: .44
     },
@@ -195,11 +195,6 @@ document.profiles = [
         player: 'Teep',
         x: .11,
         y: -.28
-    },
-    {
-        player: 'Alek',
-        x: -.41,
-        y: .46
     },
     {
         player: 'Stefan',
