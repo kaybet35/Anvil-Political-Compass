@@ -200,6 +200,16 @@ document.profiles = [
         player: 'Cobble',
         x: .15,
         y: .59
+    },
+    {
+        player: 'Space',
+        x: .06,
+        y: .22
+    },
+    {
+        player: 'Trisky',
+        x: .8,
+        y: .95
     }
     
         
