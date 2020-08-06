@@ -232,7 +232,7 @@ document.profiles = [
         y: -.38
     },
     {
-        player: 'Hudson',
+        player: 'Hud',
         x: .17,
         y: .22
     },
