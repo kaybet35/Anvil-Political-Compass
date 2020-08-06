@@ -249,7 +249,7 @@ document.profiles = [
     {
         player: 'Rod',
         x: -0.04,
-        y: .26
+        y: .29
     },
     {
         player: 'Pupix',
