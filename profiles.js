@@ -250,6 +250,11 @@ document.profiles = [
         player: 'Rod',
         x: -0.04,
         y: .26
+    },
+    {
+        player: 'Pupix',
+        x: .43,
+        y: -.75
     }
     
         
