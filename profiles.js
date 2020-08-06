@@ -196,6 +196,11 @@ document.profiles = [
         x: -.34,
         y: .15
     },
+    {
+        player: 'Cobble',
+        x: .15,
+        y: .59
+    }
     
         
 ];
