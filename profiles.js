@@ -260,6 +260,21 @@ document.profiles = [
         player: 'TechVoid',
         x: .49,
         y: .34
+    },
+    {
+        player: 'Lord_Death',
+        x: .43,
+        y: -.03
+    },
+    {
+        player: '8ball',
+        x: -.28,
+        y: -.40
+    },
+    {
+        player: 'Lercas',
+        x: .26,
+        y: .24
     }
     
         
