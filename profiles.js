@@ -7,7 +7,7 @@ document.profiles = [
     },
 
     {
-        player: 'Vulpus/miken',
+        player: 'Vulpus/miken/Marx',
         x: .34,
         y: .25
     },
@@ -191,5 +191,11 @@ document.profiles = [
         x: -.61,
         y: -.95
     },
+    {
+        player: 'Stefan',
+        x: -.34,
+        y: .15
+    },
+    
         
 ];
