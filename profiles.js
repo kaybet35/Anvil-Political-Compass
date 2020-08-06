@@ -215,6 +215,31 @@ document.profiles = [
         player: 'Tichy',
         x: .8,
         y: .95
+    },
+    {
+        player: 'Subway',
+        x: -.35,
+        y: .28
+    },
+    {
+        player: 'Baldwick', 
+        x: -.53,
+        y: .22
+    },
+    {
+        player: 'Terrento',
+        x:.05,
+        y: -.38
+    },
+    {
+        player: 'Hudson',
+        x: .17,
+        y: .22
+    },
+    {
+        player: 'Patrick',
+        x: -.08,
+        y: .11
     }
     
         
