@@ -41,6 +41,11 @@ document.profiles = [
         player: 'Pap',
         x: .38,
         y: .18
+    }, 
+    {
+        player: 'Disk',
+        x: .3,
+        y: -.6
     }
 
 ];
