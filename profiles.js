@@ -60,6 +60,16 @@ document.profiles = [
         player: 'Sunchips',
         x: -.14,
         y: -.93
+    },
+    {
+        player: 'SHIV',
+        x: .42,
+        y: .61
+    },
+    {
+        player: 'Geoffrey',
+        x: .34,
+        y: .50
     }
         
 ];
