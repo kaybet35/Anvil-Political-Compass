@@ -271,5 +271,20 @@ document.profiles = [
         x: -.28,
         y: -.40
     },
+    {
+        player: 'Ensta',
+        x: .75,
+        y: .76
+    },
+    {
+        player: 'DT',
+        x: .33,
+        y: -.42
+    },
+    {
+        player: 'Bubba',
+        x: -.76,
+        y: .57
+    },
         
 ];
