@@ -80,6 +80,10 @@ document.profiles = [
         player: 'Kars',
         x: .90,
         y: .84
+    },
+    {
+        player: 'Trekker',
+        x: .44,
+        y: .68
     }
-        
 ];
