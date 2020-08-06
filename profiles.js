@@ -1,7 +1,7 @@
 document.profiles = [
 
     {
-        player: 'Derp',
+        player: 'Pess/Derp',
         x: -.13,
         y: -.03
     },
@@ -154,7 +154,7 @@ document.profiles = [
     {
         player: 'Lek',
         x: -.07,
-        y: .03
+        y: .01
     },
     {
         player: 'Jank',
@@ -165,5 +165,46 @@ document.profiles = [
         player: 'Ahegao',
         x: -.8,
         y: -.68
+    },
+    {
+        player: 'Whatever',
+        x: .18,
+        y: .42
+    },
+    {
+        player: 'Rampage',
+        x: -.34,
+        y: -.83
+    },
+    {  
+        player: 'Alarsin',
+        x: -.40,
+        y: 55
+    },
+    {
+        player: 'Acq',
+        x: -.23,
+        y: -.88
+    },
+    {
+        player: 'Gute',
+        x: .38,
+        y: .79
+    },
+    {
+        player: 'Data',
+        x: .2,
+        y: .53
+    },
+    {
+        player: 'George',
+        x: -.61,
+        y: -.95
+    },
+    {
+        player: 'Moon',
+        x: .12,
+        y: .06
     }
+        
 ];
