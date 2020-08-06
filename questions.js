@@ -96,7 +96,7 @@ document.interview = [
     },
     {
         weight: .75,
-        title: 'I will do things that are boring to help the team, I am on, win',
+        title: 'I will do things that are boring to help the team I am on win',
         type: 'sweatiness',
     },
     {
