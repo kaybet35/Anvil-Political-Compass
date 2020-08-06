@@ -65,6 +65,11 @@ document.profiles = [
         player: 'Geoffrey',
         x: .34,
         y: .50
+    },
+    {
+        player: 'Seb',
+        x: -.19,
+        y: .34
     }
         
 ];
