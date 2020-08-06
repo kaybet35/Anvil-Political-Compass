@@ -33,8 +33,8 @@ document.profiles = [
     },
     {
         player: 'Chigg',
-        x: -1,
-        y: -1
+        x: -.97,
+        y: -.97
     },
     {
         player: 'Pap/Anna',
@@ -139,7 +139,7 @@ document.profiles = [
     {
         player: 'Jeary',
         x: .83,
-        y: 1.00
+        y: .97
     },
     {
         player: 'Sauldor/Alek',
