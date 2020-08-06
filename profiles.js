@@ -9,8 +9,8 @@ document.profiles = [
 
     {
         player: 'Vulpus',
-        x: .25,
-        y: -.5
+        x: .34,
+        y: .25
     }
 
 
