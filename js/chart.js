@@ -104,20 +104,14 @@
                 context.strokeText(item.player, radius + 2, 6);
                 context.fillText(item.player, radius + 2, 6);
                 context.strokeStyle = '#FFFFFF33';
-
-
             }
             else {
                 context.textAlign = 'right';
                 context.lineWidth = .5;
                 context.strokeText(item.player, -radius - 2, 6);
                 context.fillText(item.player, -radius - 2, 6);
-
                 context.strokeStyle = '#FFFFFF33';
-
             }
-
-
         }
 
         context.beginPath();
