@@ -11,13 +11,7 @@ document.profiles = [
         player: 'Vulpus',
         x: .25,
         y: -.5
-    },
-
-    {
-        player: 'Grom',
-        x: -.4,
-        y: -.2,
-        image: 'images/profiles/grom.png'
     }
+
 
 ];
