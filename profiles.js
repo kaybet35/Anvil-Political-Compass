@@ -7,12 +7,12 @@ document.profiles = [
     },
 
     {
-        player: 'Vulpus',
+        player: 'Vulpus/miken',
         x: .34,
         y: .25
     },
     {
-        player: 'Drunkle',
+        player: 'Drunkle/Sunchips',
         x: -.10,
         y: -.90
     },
@@ -27,7 +27,7 @@ document.profiles = [
        y: -.62
     },
     {
-        player: 'Weatherby',
+        player: 'Weatherby/Luci',
         x: .6,
         y: .55
     },
@@ -57,12 +57,7 @@ document.profiles = [
         y: -.45
     },
     {
-        player: 'Sunchips',
-        x: -.14,
-        y: -.93
-    },
-    {
-        player: 'SHIV',
+        player: 'SHIV/Kass',
         x: .42,
         y: .61
     },
@@ -70,6 +65,25 @@ document.profiles = [
         player: 'Geoffrey',
         x: .34,
         y: .50
+    },
+    {
+        player: 'Seb',
+        x: -.19,
+        y: .34
+    },
+    {
+        player: 'Eevee',
+        x: .29,
+        y: .74
+    },
+    {
+        player: 'Kars',
+        x: .90,
+        y: .84
+    },
+    {
+        player: 'Trekker',
+        x: .44,
+        y: .68
     }
-        
 ];
