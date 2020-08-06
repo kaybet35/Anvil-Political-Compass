@@ -7,7 +7,7 @@ document.profiles = [
     },
 
     {
-        player: 'Vulpus',
+        player: 'Vulpus/miken',
         x: .34,
         y: .25
     },
