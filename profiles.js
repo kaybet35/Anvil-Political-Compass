@@ -117,7 +117,7 @@ document.profiles = [
         y: .66
     },
     {
-        player: 'North',
+        player: 'North/Moon',
         x: .07,
         y: .05
     },
@@ -132,7 +132,7 @@ document.profiles = [
         y: -.1
     },
     {
-        player: 'Smiffin/Clanman',
+        player: 'Smiffin/Clanman/Rampage',
         x: -.34,
         y: -.84
     },
@@ -147,7 +147,7 @@ document.profiles = [
         y: .44
     },
     {
-        player: 'Maybar',
+        player: 'Maybar/Whatever',
         x: .18,
         y: .41
     },
@@ -165,16 +165,6 @@ document.profiles = [
         player: 'Ahegao',
         x: -.8,
         y: -.68
-    },
-    {
-        player: 'Whatever',
-        x: .18,
-        y: .42
-    },
-    {
-        player: 'Rampage',
-        x: -.34,
-        y: -.83
     },
     {  
         player: 'Alarsin',
@@ -201,10 +191,5 @@ document.profiles = [
         x: -.61,
         y: -.95
     },
-    {
-        player: 'Moon',
-        x: .12,
-        y: .06
-    }
         
 ];
