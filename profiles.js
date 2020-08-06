@@ -207,7 +207,7 @@ document.profiles = [
         y: .22
     },
     {
-        player: 'Trisky',
+        player: 'Tichy',
         x: .8,
         y: .95
     }
