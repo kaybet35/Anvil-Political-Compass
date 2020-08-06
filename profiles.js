@@ -140,5 +140,30 @@ document.profiles = [
         player: 'Jeary',
         x: .83,
         y: 1.00
+    },
+    {
+        player: 'Sauldor',
+        x: -.45,
+        y: .44
+    },
+    {
+        player: 'Maybar',
+        x: .18,
+        y: .41
+    },
+    {
+        player: 'Lek',
+        x: -.07,
+        y: .03
+    },
+    {
+        player: 'Jank',
+        x: .37,
+        y: .09
+    },
+    {
+        player: 'Ahegao',
+        x: -.8,
+        y: -.68
     }
 ];
