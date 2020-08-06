@@ -69,7 +69,7 @@
         questions.forEach(function (question) {
             delete question.answer;
         });
-        console.log(questions);
+        //console.log(questions);
     }
 
     function updateChart() {
@@ -85,9 +85,23 @@
                 results[question.type.concat('-scale')] += Math.abs(question.weight);
             }
         });
-        console.log('results', results);
-        dot.style.left = (((results['sweatiness'] / results['sweatiness-scale']) + 1) / 2) * 100 + '%';
-        dot.style.top = (100 - ((((results['loyalist'] / results['loyalist-scale']) + 1) / 2) * 100)) + '%';
+        //console.log('results', results);
+        var left = (((results['sweatiness-scale'] > 0.0 ? (results['sweatiness'] / results['sweatiness-scale']) : 0.0) + 1) / 2);
+        var top = 1 - (((results['loyalist-scale'] > 0.0 ? (results['loyalist'] / results['loyalist-scale']) : 0.0) + 1) / 2);
+
+        var op = document.getElementById('output');
+
+        var width = parseFloat(op.clientWidth.toFixed());
+        var height = parseFloat(op.clientHeight.toFixed());
+
+        var offsetx = 40.0 / width;
+        var offsety = 40.0 / height;
+
+        left = left * ((width - 80) / width) + offsetx;
+        top = top * ((height - 80) / height) + offsety;
+
+        dot.style.left = (left * 100) + '%';
+        dot.style.top = (top * 100) + '%';
         return results;
     }
 

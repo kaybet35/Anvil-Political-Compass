@@ -64,7 +64,7 @@
 
         context.save();
         context.translate(width * (item.x + 1) / 2 + padding, height - height * (item.y + 1) / 2 + padding);
-        context.fillStyle = '#202020';
+        context.fillStyle = '#151515FF';
         // add on hover
         // draw a marker or dot
 
@@ -100,17 +100,17 @@
         else {
             if (item.x < 0) {
                 context.textAlign = 'left';
-                context.lineWidth = .5;
+                context.lineWidth = .2;
                 context.strokeText(item.player, radius + 2, 6);
                 context.fillText(item.player, radius + 2, 6);
-                context.strokeStyle = '#FFFFFF33';
+                context.strokeStyle = '#DDDDDDFF';
             }
             else {
                 context.textAlign = 'right';
-                context.lineWidth = .5;
+                context.lineWidth = .2;
                 context.strokeText(item.player, -radius - 2, 6);
                 context.fillText(item.player, -radius - 2, 6);
-                context.strokeStyle = '#FFFFFF33';
+                context.strokeStyle = '#DDDDDDFF';
             }
         }
 
