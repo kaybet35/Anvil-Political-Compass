@@ -147,7 +147,7 @@ document.profiles = [
         y: .44
     },
     {
-        player: 'Maybar/Whatever',
+        player: 'Maybar/Whatever/Foxy',
         x: .18,
         y: .41
     },
@@ -240,6 +240,16 @@ document.profiles = [
         player: 'Patrick',
         x: -.08,
         y: .11
+    },
+    {
+        player: 'Auto',
+        x: 0.03,
+        y: -.11
+    },
+    {
+        player: 'Rod',
+        x: -0.04,
+        y: .26
     }
     
         
