@@ -370,6 +370,12 @@ document.profiles = [
         player: 'UKDavid',
             x: .65,
             y: .92
+    },
+    {   
+        player: 'Fart',
+            x: .81,
+            y: .61
     }
+        
     
 ];
