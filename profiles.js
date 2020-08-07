@@ -329,11 +329,16 @@ document.profiles = [
     {
         player: 'dukesalt',
         x: .04,
-        y: -.84
+        y: -.81
     },
     {
         player: 'Eagle',
         x: .04,
-        y: .2
+        y: .18
+    },
+    {
+        player: 'Spots',
+        x: -.07,
+        y: .41
     }
 ];
