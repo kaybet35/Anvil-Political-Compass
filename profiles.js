@@ -1,7 +1,7 @@
 document.profiles = [
 
     {
-        player: 'Pess/Derp',
+        player: 'Pess/Derp/Viking',
         x: -.13,
         y: -.03
     },
@@ -405,11 +405,6 @@ document.profiles = [
         player: 'VonKlaus',
             x: .6,
             y: .7
-    },
-    {
-        player: 'Viking',
-            x: -.24,
-            y: -.05
     },
     {
         player: 'Commissar',
