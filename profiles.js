@@ -350,5 +350,10 @@ document.profiles = [
         player: 'Lomein',
         x: .43,
         y: .40
+    },
+    {
+        player: 'SENzen',
+        x: .24,
+        y: -.12
     }
 ];
