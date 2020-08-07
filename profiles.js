@@ -344,6 +344,6 @@ document.profiles = [
     {
         player: 'Rattle',
         x: -.3,
-        y: -.89
+        y: -.91
     }
 ];
