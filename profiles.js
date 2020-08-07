@@ -424,12 +424,17 @@ document.profiles = [
     {
         player: 'Qache',
             x: .95,
-            y: .82
+            y: .80
     },
     {
         player: 'DeadSloth',
             x: .38,
             y: .89
+    },
+    {
+        player: 'Dark',
+            x: .61,
+            y: .43
     }
    
 ];
