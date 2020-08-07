@@ -1,7 +1,7 @@
 document.profiles = [
 
     {
-        player: 'Pess/Derp',
+        player: 'Pess/Derp/Viking',
         x: -.13,
         y: -.03
     },
@@ -114,7 +114,7 @@ document.profiles = [
     {
         player: 'Teddy/Slice',
         x: .65,
-        y: .66
+        y: .65
     },
     {
         player: 'North/Moon/Griff',
@@ -137,7 +137,7 @@ document.profiles = [
         y: -.84
     },
     {
-        player: 'Jeary',
+        player: 'Jeary/Qache',
         x: .83,
         y: .97
     },
@@ -214,7 +214,7 @@ document.profiles = [
     {
         player: 'Tichy',
         x: .8,
-        y: .95
+        y: .93
     },
     {
         player: 'Subway',
@@ -272,7 +272,7 @@ document.profiles = [
         y: -.40
     },
     {
-        player: 'Ensta',
+        player: 'Alpmert/Ensta',
         x: .75,
         y: .76
     },
@@ -317,7 +317,7 @@ document.profiles = [
         y: -.35
     },
     {
-        player: 'Phil',
+        player: 'Phil/Judas',
         x: -.16,
         y: -.08
     },
@@ -354,7 +354,7 @@ document.profiles = [
     {
         player: 'SENzen',
         x: .24,
-        y: -.12
+        y: -.11
     },
     {
         player: 'Tenoxsis',
@@ -379,6 +379,46 @@ document.profiles = [
     {
         player: 'Bob Semple',
             x: -.62,
+            y: .41
+    },
+    {
+        player: 'Texas',
+            x: .47,
+            y: -.53
+    },
+    {
+        player: 'Panzer',
+            x: .7,
+            y: -.77
+    },
+    {
+        player: 'Oracle',
+            x: -.34,
+            y: .94
+    },
+    {
+        player: 'VonKlaus',
+            x: .6,
+            y: .71
+    },
+    {
+        player: 'Commissar',
+            x: -.95,
+            y: 0
+    },
+    {
+        player: 'Warcorp',
+            x: -.95,
+            y: .3
+    },
+    {
+        player: 'DeadSloth',
+            x: .38,
+            y: .89
+    },
+    {
+        player: 'Dark',
+            x: .63,
             y: .41
     }
    
