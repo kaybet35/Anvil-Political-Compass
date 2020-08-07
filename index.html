@@ -51,14 +51,33 @@
                     </button>
                 </div>
             </div>
-            <div class="output" id="output">
-                <div class="dot" id="dot">
-                    <img style="width: 20px; height: 20px" src="images/target.svg" alt="Target" />
+
+            <div class="display">
+                <!-- Rounded switch -->
+                <div class="setting">
+                    <span>Plot</span>
+                    <label class="switch">
+                        <input type="checkbox" id="profiles-enabled" checked>
+                        <span class="slider round"></span>
+                    </label>
                 </div>
-                <canvas class="chart" id="chart"></canvas>
+
+
+                <div class="output" id="output">
+                    <div class="dot" id="dot">
+                        <img style="width: 20px; height: 20px" src="images/target.svg" alt="Target" />
+                    </div>
+                    <canvas class="chart" id="chart"></canvas>
+                </div>
             </div>
+
         </div>
     </div>
+    <script type="text/javascript">
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.getElementById('profiles-enabled').checked = false;
+        }
+    </script>
     <script src="profiles.js"></script>
     <script src="js/chart.js"></script>
     <script src="questions.js"></script>

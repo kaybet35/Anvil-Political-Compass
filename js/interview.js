@@ -91,8 +91,8 @@
 
         var op = document.getElementById('output');
 
-        var width = parseFloat(op.clientWidth.toFixed());
-        var height = parseFloat(op.clientHeight.toFixed());
+        var width = parseFloat(op.parentNode.clientWidth.toFixed());
+        var height = parseFloat(op.parentNode.clientHeight.toFixed());
 
         var offsetx = 40.0 / width;
         var offsety = 40.0 / height;

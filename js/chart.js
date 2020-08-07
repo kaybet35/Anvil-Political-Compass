@@ -3,9 +3,12 @@
     var context = canvas.getContext('2d', { alpha: true });
     var textHeight = 0;
 
+    document.getElementById('profiles-enabled').onchange = function () { setup(); };
+
     function setup() {
-        var height = canvas.height = canvas.parentNode.clientWidth; // use width for square aspect ratio
-        var width = canvas.width = canvas.parentNode.clientWidth;
+        var height = canvas.height = canvas.parentNode.parentNode.clientWidth; // use width for square aspect ratio
+        var width = canvas.width = canvas.parentNode.parentNode.clientWidth;
+
         var padding = 40;
 
 
@@ -50,9 +53,10 @@
             { text: 'Libertarianism', horizontal: 'center', vertical: 'bottom', x: width / 2, y: height },*/
         ];
 
-        document.profiles.forEach(function (p) {
-            drawProfile(p, padding);
-        });
+        if (document.getElementById("profiles-enabled").checked)
+            document.profiles.forEach(function (p) {
+                drawProfile(p, padding);
+            });
 
         labels.forEach(function (label) {
             drawText(label, 15, true);
