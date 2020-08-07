@@ -340,5 +340,10 @@ document.profiles = [
         player: 'Spots',
         x: -.07,
         y: .46
+    },
+    {
+        player: 'Rattle',
+        x: -.3,
+        y: -.89
     }
 ];
