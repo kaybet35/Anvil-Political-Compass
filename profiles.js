@@ -137,7 +137,7 @@ document.profiles = [
         y: -.84
     },
     {
-        player: 'Jeary',
+        player: 'Jeary/Qache',
         x: .83,
         y: .97
     },
@@ -410,11 +410,6 @@ document.profiles = [
         player: 'Warcorp',
             x: -.95,
             y: .3
-    },
-    {
-        player: 'Qache',
-            x: .70,
-            y: .97
     },
     {
         player: 'DeadSloth',
