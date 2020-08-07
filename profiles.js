@@ -360,5 +360,16 @@ document.profiles = [
         player: 'Tenoxsis',
         x: .71,
         y: .45
+    },
+    {
+        player: 'Nova',
+            x: -.18,
+            y: -.55
+    },
+    {
+        player: 'UKDavid',
+            x: .65,
+            y: .92
     }
+    
 ];
