@@ -114,7 +114,7 @@ document.profiles = [
     {
         player: 'Teddy/Slice',
         x: .65,
-        y: .66
+        y: .65
     },
     {
         player: 'North/Moon/Griff',
@@ -272,7 +272,7 @@ document.profiles = [
         y: -.40
     },
     {
-        player: 'Ensta',
+        player: 'Alpmert/Ensta',
         x: .75,
         y: .76
     },
@@ -397,14 +397,9 @@ document.profiles = [
             y: .94
     },
     {
-        player: 'Alpmert',
-            x: .71,
-            y: .73
-    },
-    {
         player: 'VonKlaus',
             x: .6,
-            y: .7
+            y: .71
     },
     {
         player: 'Commissar',
