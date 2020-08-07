@@ -339,6 +339,6 @@ document.profiles = [
     {
         player: 'Spots',
         x: -.07,
-        y: .41
+        y: .46
     }
 ];
