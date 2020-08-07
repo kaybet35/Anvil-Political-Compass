@@ -247,7 +247,7 @@ document.profiles = [
         y: -.11
     },
     {
-        player: 'Rod',
+        player: 'Rod/Bacchus',
         x: -0.04,
         y: .29
     },
@@ -379,13 +379,7 @@ document.profiles = [
     {
         player: 'Bob Semple',
             x: -.62,
-            y: .42
-    },
-    {
-        player: 'Bacchus',
-            x: -.03,
-            y: .27
+            y: .41
     }
-        
-    
+   
 ];
