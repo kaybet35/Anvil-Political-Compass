@@ -420,6 +420,11 @@ document.profiles = [
         player: 'Dark',
             x: .63,
             y: .41
+    },
+    {
+       player: 'Pickled',
+            x: -62,
+            y: 81
     }
    
 ];
