@@ -423,7 +423,7 @@ document.profiles = [
     },
     {
        player: 'Pickled',
-            x: -62,
+            x: -.62,
             y: .81
     }
    
