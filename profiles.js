@@ -333,8 +333,8 @@ document.profiles = [
     },
     {
         player: 'Eagle',
-        x: .04,
-        y: .18
+        x: .26,
+        y: .03
     },
     {
         player: 'Spots',
@@ -377,9 +377,14 @@ document.profiles = [
             y: .61
     },
     {
-        player: 'Bob',
+        player: 'Bob Semple',
             x: -.62,
             y: .42
+    },
+    {
+        player: 'Bacchus',
+            x: -.03,
+            y: .27
     }
         
     
