@@ -355,5 +355,10 @@ document.profiles = [
         player: 'SENzen',
         x: .24,
         y: -.12
+    },
+    {
+        player: 'Tenoxsis',
+        x: .71,
+        y: .45
     }
 ];
