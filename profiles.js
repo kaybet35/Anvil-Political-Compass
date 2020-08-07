@@ -112,7 +112,7 @@ document.profiles = [
         y: .93
     },
     {
-        player: 'Teddy',
+        player: 'Teddy/Slice',
         x: .65,
         y: .66
     },
@@ -228,8 +228,8 @@ document.profiles = [
     },
     {
         player: 'Terrento',
-        x:.05,
-        y: -.38
+        x: 0.00,
+        y: -.43
     },
     {
         player: 'Hud',
@@ -247,7 +247,7 @@ document.profiles = [
         y: -.11
     },
     {
-        player: 'Rod',
+        player: 'Rod/Bacchus',
         x: -0.04,
         y: .29
     },
@@ -305,6 +305,81 @@ document.profiles = [
         player: 'Teto',
         x: .21,
         y: -.54
+    },
+    {
+        player: 'Cretin',
+        x: .27,
+        y: -.67
+    },
+    {
+        player: 'Kari',
+        x: .09, 
+        y: -.35
+    },
+    {
+        player: 'Phil',
+        x: -.16,
+        y: -.08
+    },
+    {
+        player: 'Leak',
+        x: -.13,
+        y: -.28
+    },
+    {
+        player: 'dukesalt',
+        x: .04,
+        y: -.81
+    },
+    {
+        player: 'Eagle',
+        x: .26,
+        y: .03
+    },
+    {
+        player: 'Spots',
+        x: -.07,
+        y: .46
+    },
+    {
+        player: 'Rattle',
+        x: -.3,
+        y: -.91
+    },
+    {
+        player: 'Lomein',
+        x: .43,
+        y: .40
+    },
+    {
+        player: 'SENzen',
+        x: .24,
+        y: -.12
+    },
+    {
+        player: 'Tenoxsis',
+        x: .71,
+        y: .45
+    },
+    {
+        player: 'Nova',
+            x: -.18,
+            y: -.55
+    },
+    {
+        player: 'UKDavid',
+            x: .65,
+            y: .92
+    },
+    {   
+        player: 'Fart',
+            x: .81,
+            y: .61
+    },
+    {
+        player: 'Bob Semple',
+            x: -.62,
+            y: .41
     }
-        
+   
 ];
