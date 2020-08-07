@@ -349,6 +349,6 @@ document.profiles = [
     {
         player: 'Lomein',
         x: .43,
-        y: .42
+        y: .41
     }
 ];
