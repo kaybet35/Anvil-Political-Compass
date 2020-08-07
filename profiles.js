@@ -228,8 +228,8 @@ document.profiles = [
     },
     {
         player: 'Terrento',
-        x:.05,
-        y: -.38
+        x: 0.00,
+        y: -.43
     },
     {
         player: 'Hud',
