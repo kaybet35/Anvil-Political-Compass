@@ -399,17 +399,17 @@ document.profiles = [
     {
         player: 'Alpmert',
             x: .71,
-            y: .74
+            y: .73
     },
     {
         player: 'VonKlaus',
             x: .6,
-            y: .68
+            y: .7
     },
     {
         player: 'Viking',
-            x: -.21,
-            y: -.03
+            x: -.24,
+            y: -.05
     },
     {
         player: 'Commissar',
