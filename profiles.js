@@ -317,7 +317,7 @@ document.profiles = [
         y: -.35
     },
     {
-        player: 'Phil',
+        player: 'Phil/Judas',
         x: -.16,
         y: -.08
     },
@@ -380,6 +380,56 @@ document.profiles = [
         player: 'Bob Semple',
             x: -.62,
             y: .41
+    },
+    {
+        player: 'Texas',
+            x: .47,
+            y: -.53
+    },
+    {
+        player: 'Panzer',
+            x: .7,
+            y: -.77
+    },
+    {
+        player: 'Oracle',
+            x: -.34,
+            y: .94
+    },
+    {
+        player: 'Alpmert',
+            x: .71,
+            y: .74
+    },
+    {
+        player: 'VonKlaus',
+            x: .6,
+            y: .68
+    },
+    {
+        player: 'Viking',
+            x: -.21,
+            y: -.03
+    },
+    {
+        player: 'Commissar',
+            x: -.95,
+            y: 0
+    },
+    {
+        player: 'Warcorp',
+            x: -.95,
+            y: .3
+    },
+    {
+        player: 'Qache',
+            x: .95,
+            y: .82
+    },
+    {
+        player: 'DeadSloth',
+            x: .38,
+            y: .89
     }
    
 ];
