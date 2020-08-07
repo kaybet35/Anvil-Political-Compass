@@ -320,6 +320,10 @@ document.profiles = [
         player: 'Phil',
         x: -.16,
         y: -.08
+    },
+    {
+        player: 'Leak',
+        x: -.13,
+        y: -.28
     }
-        
 ];
