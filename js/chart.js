@@ -77,9 +77,11 @@
         // add on hover
         // draw a marker or dot
 
-        var radius = parseInt((width / 200).toFixed());
+        var radius = parseInt((width / 300).toFixed());
         if (radius < 1)
             radius = 1;
+
+        context.font = '14px Jost-Regular'
 
         // boy I did a bad job writing this ugly piece of code, it's just left/right justification
         if (item.image != undefined) {
@@ -205,15 +207,16 @@
         }
         context.translate(item.x, item.y);
         context.rotate(item.r * Math.PI / 180);
-        context.fillStyle = label ? '#FFFFFFFF' : '#000000FF';
-        context.strokeStyle = '#101010FF';
+        context.fillStyle = '#FFFFFFFF';
+        context.strokeStyle = '#333333FF';
+        context.lineWidth = 3;
+        context.font = '20px Jost-Regular'
 
-        if (label) {
-            context.strokeStyle = '#101010FF';
+        if (label)
             context.strokeText(item.text, 0, 0);
-        }
-
         context.fillText(item.text, 0, 0);
+        
+
         context.restore();
     }
 
