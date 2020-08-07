@@ -290,6 +290,21 @@ document.profiles = [
         player: 'Sir',
         x: -0.05,
         y: -.17
+    },
+    {
+        player: 'Stranger Days',
+        x: .54,
+        y: .43
+    },
+    {
+        player: 'Mint',
+        x: .95, 
+        y: .95
+    },
+    {
+        player: 'Teto',
+        x: .21,
+        y: -.54
     }
         
 ];
