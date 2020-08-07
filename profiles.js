@@ -305,6 +305,16 @@ document.profiles = [
         player: 'Teto',
         x: .21,
         y: -.54
+    },
+    {
+        player: 'Cretin',
+        x: .27,
+        y: -.67
+    },
+    {
+        player: 'Kari',
+        x: .09, 
+        y: -.35
     }
         
 ];
