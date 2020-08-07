@@ -413,8 +413,8 @@ document.profiles = [
     },
     {
         player: 'Qache',
-            x: .95,
-            y: .80
+            x: .8,
+            y: .95
     },
     {
         player: 'DeadSloth',
