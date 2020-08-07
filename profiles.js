@@ -112,7 +112,7 @@ document.profiles = [
         y: .93
     },
     {
-        player: 'Teddy',
+        player: 'Teddy/Slice',
         x: .65,
         y: .66
     },
@@ -325,5 +325,15 @@ document.profiles = [
         player: 'Leak',
         x: -.13,
         y: -.28
+    },
+    {
+        player: 'dukesalt',
+        x: .04,
+        y: -.84
+    },
+    {
+        player: 'Eagle',
+        x: .04,
+        y: .2
     }
 ];
