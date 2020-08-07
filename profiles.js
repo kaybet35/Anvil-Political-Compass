@@ -214,7 +214,7 @@ document.profiles = [
     {
         player: 'Tichy',
         x: .8,
-        y: .95
+        y: .93
     },
     {
         player: 'Subway',
@@ -354,7 +354,7 @@ document.profiles = [
     {
         player: 'SENzen',
         x: .24,
-        y: -.12
+        y: -.11
     },
     {
         player: 'Tenoxsis',
@@ -428,8 +428,8 @@ document.profiles = [
     },
     {
         player: 'Dark',
-            x: .61,
-            y: .43
+            x: .63,
+            y: .41
     }
    
 ];
