@@ -112,7 +112,7 @@ document.profiles = [
         y: .93
     },
     {
-        player: 'Teddy/Slice',
+        player: 'Teddy/Slice/WildWolf',
         x: .65,
         y: .65
     },
@@ -152,7 +152,7 @@ document.profiles = [
         y: .41
     },
     {
-        player: 'Lek',
+        player: 'Lek/Blade',
         x: -.07,
         y: .01
     },
@@ -192,7 +192,7 @@ document.profiles = [
         y: -.95
     },
     {
-        player: 'Teep',
+        player: 'Teto',
         x: .11,
         y: -.28
     },
@@ -419,6 +419,26 @@ document.profiles = [
     {
         player: 'Dark',
             x: .63,
+            y: .41
+    },
+    {
+       player: 'Pickled',
+            x: -.62,
+            y: .81
+    },
+    {
+       player: 'Craig',
+            x: -.64,
+            y: -.31
+    },
+    {
+        player: 'Seiko',
+            x: .16,
+            y: -.8
+    },
+    {
+        player: 'Enossaji',
+            x: -.36,
             y: .41
     }
    
