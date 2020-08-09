@@ -192,7 +192,7 @@ document.profiles = [
         y: -.95
     },
     {
-        player: 'Teep',
+        player: 'Teto',
         x: .11,
         y: -.28
     },
