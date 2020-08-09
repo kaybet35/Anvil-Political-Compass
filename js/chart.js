@@ -59,7 +59,7 @@
             });
 
         labels.forEach(function (label) {
-            drawText(label, 15, true);
+            drawText(label, 10, true);
         });
 
 
