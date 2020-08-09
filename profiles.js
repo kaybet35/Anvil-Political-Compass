@@ -439,7 +439,7 @@ document.profiles = [
     {
         player: 'Enossaji',
             x: -.36,
-            y: .43
+            y: .41
     }
    
 ];
