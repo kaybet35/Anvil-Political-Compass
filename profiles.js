@@ -112,7 +112,7 @@ document.profiles = [
         y: .93
     },
     {
-        player: 'Teddy/Slice',
+        player: 'Teddy/Slice/WildWolf',
         x: .65,
         y: .65
     },
@@ -425,11 +425,6 @@ document.profiles = [
        player: 'Pickled',
             x: -.62,
             y: .81
-    },
-    {
-       player: 'WilfWolf',
-            x: .59,
-            y: .64
     },
     {
        player: 'Craig',
