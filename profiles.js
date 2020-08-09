@@ -152,7 +152,7 @@ document.profiles = [
         y: .41
     },
     {
-        player: 'Lek',
+        player: 'Lek/Blade',
         x: -.07,
         y: .01
     },
@@ -425,6 +425,16 @@ document.profiles = [
        player: 'Pickled',
             x: -.62,
             y: .81
+    },
+    {
+       player: 'WilfWolf',
+            x: .59,
+            y: .64
+    },
+    {
+       player: 'Craig',
+            x: -.64,
+            y: -.31
     }
    
 ];
