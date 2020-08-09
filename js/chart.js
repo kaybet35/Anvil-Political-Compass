@@ -19,16 +19,16 @@
 
         context.save();
         context.fillStyle = '#F9BABA';
-        context.fillRect(padding, padding, width / 2, height / 2);
+        context.fillRect(0, 0, width / 2, height / 2);
 
         context.fillStyle = '#92D9F8';
-        context.fillRect(width / 2, padding, width / 2 - padding, height / 2 - padding);
+        context.fillRect(width / 2, 0, width / 2, height / 2);
 
         context.fillStyle = '#C8E4BC';
-        context.fillRect(padding, height / 2, width / 2, height / 2 - padding);
+        context.fillRect(0, height / 2, width / 2, height / 2);
 
         context.fillStyle = '#D5D587';
-        context.fillRect(width / 2, height / 2, width / 2 - padding, height / 2 - padding);
+        context.fillRect(width / 2, height / 2, width / 2 , height / 2);
 
         context.restore();
 
