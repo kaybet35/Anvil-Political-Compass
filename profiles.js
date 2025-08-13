@@ -82,6 +82,12 @@ document.profiles = [
         player: 'Finnin',
         x: .02,
         y: -.65
+    },
+
+    {
+        player: 'Sixes',
+        x: .93,
+        y: .64
     }
 
 ];
