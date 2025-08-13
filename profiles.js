@@ -88,6 +88,18 @@ document.profiles = [
         player: 'Sixes',
         x: .93,
         y: .64
+    },
+
+    {
+        player: 'FREEZEE',
+        x: .44,
+        y: -.13
+    },
+
+    {
+        player: 'Zeth',
+        x: .08,
+        y: -.18
     }
 
 ];
