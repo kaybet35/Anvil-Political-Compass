@@ -142,6 +142,12 @@ document.profiles = [
         player: 'Cooltrain',
         x: 0.4,
         y: -0.53
+    },
+
+    {
+        player: 'STAYHARD',
+        x: 0.52,
+        y: 0
     }
 
 ];
