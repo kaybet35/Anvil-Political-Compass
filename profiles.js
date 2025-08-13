@@ -46,6 +46,18 @@ document.profiles = [
         player: 'SKOS',
         x: .58,
         y: .29
+    },
+
+    {
+        player: 'Takeshibox',
+        x: .3,
+        y: 1
+    },
+
+    {
+        player: 'pizza',
+        x: .3,
+        y: 0.55
     }
 
 ];
