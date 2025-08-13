@@ -166,6 +166,12 @@ document.profiles = [
         player: 'vuk',
         x: 0.54,
         y: 0.75
+    },
+
+    {
+        player: 'DuBonGaz',
+        x: 0.58,
+        y: 0.46
     }
 
 ];
