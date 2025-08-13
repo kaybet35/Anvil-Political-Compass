@@ -10,12 +10,12 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: .75,
+        weight: .25,
         title: 'I strive to do my best to help my alliance win the wars.',
         type: 'sweatiness',
     },
     {
-        weight: -.75,
+        weight: -.25,
         title: 'I prefer to stay in my Homestead even when there is a siege going on.',
         type: 'sweatiness',
     },
@@ -65,12 +65,12 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: -.5,
+        weight: -.75,
         title: 'I like to occasionally troll people in the game and find it funny.',
         type: 'sweatiness',
     },
     {
-        weight: .5,
+        weight: .75,
         title: 'I will use some exploits and glitches to my advantage, it is called having good game knowledge.',
         type: 'sweatiness',
     },
@@ -80,13 +80,13 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: -.5,
-        title: 'I have never been to underworld.',
+        weight: -.75,
+        title: 'I rode a donkey to war once.',
         type: 'sweatiness',
     },
     {
         weight: .75,
-        title: 'I will do boring tasks to help the team I am on.',
+        title: 'I will usually do the most boring tasks to help the team I am on.',
         type: 'sweatiness',
     },
     {
@@ -95,12 +95,12 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: .75,
+        weight: .25,
         title: 'I work closely with my alliance-mates to coordinate large-scale projects.',
         type: 'sweatiness',
     },
     {
-        weight: .25,
+        weight: .15,
         title: 'I often use Anvil Empires Wiki.',
         type: 'sweatiness',
     },
@@ -110,7 +110,7 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: -.25,
+        weight: -.5,
         title: 'I will play off-meta sometimes just to have fun, such as building nice looking Homesteads and Fortresses.',
         type: 'sweatiness',
     },
@@ -125,7 +125,7 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: .5,
+        weight: .75,
         title: 'I think people who stop playing during a war because things weren\'t going our way are quitters and or traitors.',
         type: 'sweatiness',
     },
@@ -140,13 +140,13 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: .5,
+        weight: .25,
         title: 'I will usually take charge and tell other players what to do in-game so we can win the battle. Either at the front or through in-game chat and map posts.',
         type: 'sweatiness',
     },
     {
         weight: .75,
-        title: 'I sometimes finish wars feeling like I made a difference for my team and heavily contributed towards the successes it had.',
+        title: 'I always finish wars feeling like I made a difference for my team and heavily contributed towards the successes it had.',
         type: 'sweatiness',
     },
     {
@@ -180,13 +180,13 @@ document.interview = [
         type: 'sweatiness',
     },
     {
-        weight: .25,
+        weight: .5,
         title: 'I will stream snipe if I can to gain valuable information about the enemy, such as their map intel.',
         type: 'sweatiness',
     },
     {
         weight: .25,
-        title: 'I will sometimes team kill players who I think are hurting the war effort or deserved it.',
+        title: 'I will always team kill players who I think are hurting the war effort or deserved it.',
         type: 'sweatiness',
     },
 ]

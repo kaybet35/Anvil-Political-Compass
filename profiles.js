@@ -118,6 +118,24 @@ document.profiles = [
         player: 'Brandoid',
         x: .82,
         y: -.52
+    },
+
+    {
+        player: 'Huli',
+        x: .33,
+        y: .47
+    },
+
+    {
+        player: 'Werans',
+        x: .1,
+        y: -.87
+    },
+
+    {
+        player: 'Loupi',
+        x: -0.29,
+        y: -0.25
     }
 
 ];
