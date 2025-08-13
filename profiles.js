@@ -100,6 +100,12 @@ document.profiles = [
         player: 'Zeth',
         x: .08,
         y: -.18
+    },
+
+    {
+        player: 'empii',
+        x: .66,
+        y: .62
     }
 
 ];
