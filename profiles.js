@@ -148,6 +148,12 @@ document.profiles = [
         player: 'STAYHARD',
         x: 0.52,
         y: 0
+    },
+
+    {
+        player: 'Zaynus',
+        x: -.38,
+        y: -.25
     }
 
 ];
