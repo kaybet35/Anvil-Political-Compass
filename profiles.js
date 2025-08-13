@@ -58,6 +58,12 @@ document.profiles = [
         player: 'pizza',
         x: .3,
         y: 0.55
+    },
+
+    {
+        player: 'Mirg',
+        x: .62,
+        y: -0.33
     }
 
 ];
