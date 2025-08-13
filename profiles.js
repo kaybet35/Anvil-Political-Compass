@@ -17,11 +17,35 @@ document.profiles = [
         x: .09,
         y: -.79
     },
-    
+
     {
         player: 'Nielser',
         x: .88,
         y: .87
+    },
+
+    {
+        player: 'Andrew',
+        x: .52,
+        y: .12
+    },
+
+    {
+        player: 'MKZ',
+        x: .38,
+        y: .04
+    },
+
+    {
+        player: 'Rae',
+        x: .02,
+        y: .24
+    },
+
+    {
+        player: 'SKOS',
+        x: .58,
+        y: .29
     }
 
 ];
