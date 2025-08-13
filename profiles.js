@@ -134,8 +134,8 @@ document.profiles = [
 
     {
         player: 'Loupi',
-        x: -0.29,
-        y: -0.25
+        x: -0.21,
+        y: -0.37
     },
 
     {
