@@ -41,7 +41,7 @@
             //{ text: 'Tryhard Loyalist', horizontal: 'right', vertical: 'top', x: width, y: 0 },
             //{ text: 'Shitposting Noot', horizontal: 'left', vertical: 'bottom', x: 0, y: height },
 
-            { text: 'Shitposting', horizontal: 'left', vertical: 'middle', x: 0, y: height / 2 },
+            { text: 'Larper', horizontal: 'left', vertical: 'middle', x: 0, y: height / 2 },
             { text: 'Tryhard', horizontal: 'right', vertical: 'middle', x: width, y: height / 2 },
             { text: 'Loyalist', horizontal: 'center', vertical: 'top', x: width / 2, y: 0 },
             { text: 'Noot', horizontal: 'center', vertical: 'bottom', x: width / 2, y: height },
