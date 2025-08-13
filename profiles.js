@@ -57,13 +57,31 @@ document.profiles = [
     {
         player: 'pizza',
         x: .3,
-        y: 0.55
+        y: .55
     },
 
     {
         player: 'Mirg',
         x: .62,
-        y: -0.33
+        y: -.33
+    },
+
+    {
+        player: 'Wicca',
+        x: .24,
+        y: -.19
+    },
+
+    {
+        player: 'Eaglesword',
+        x: .16,
+        y: .05
+    },
+
+    {
+        player: 'Finnin',
+        x: .02,
+        y: -.65
     }
 
 ];
