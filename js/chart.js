@@ -44,7 +44,7 @@
             { text: 'Larper', horizontal: 'left', vertical: 'middle', x: 0, y: height / 2 },
             { text: 'Tryhard', horizontal: 'right', vertical: 'middle', x: width, y: height / 2 },
             { text: 'Loyalist', horizontal: 'center', vertical: 'top', x: width / 2, y: 0 },
-            { text: 'Noot', horizontal: 'center', vertical: 'bottom', x: width / 2, y: height },
+            { text: 'Neutral', horizontal: 'center', vertical: 'bottom', x: width / 2, y: height },
 
             /*{ text: 'Authoritarianism', horizontal: 'center', vertical: 'top', x: width / 2, y: 0 },
             { text: 'Socialism', horizontal: 'left', vertical: 'middle', x: 0, y: height / 2 },
