@@ -106,6 +106,18 @@ document.profiles = [
         player: 'empii',
         x: .66,
         y: .62
+    },
+
+    {
+        player: 'ManticBUNSY',
+        x: -.01,
+        y: .09
+    },
+
+    {
+        player: 'Brandoid',
+        x: .82,
+        y: -.52
     }
 
 ];
