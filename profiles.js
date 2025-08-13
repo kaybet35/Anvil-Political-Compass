@@ -110,8 +110,8 @@ document.profiles = [
 
     {
         player: 'ManticBUNSY',
-        x: -.01,
-        y: .09
+        x: .06,
+        y: .29
     },
 
     {
