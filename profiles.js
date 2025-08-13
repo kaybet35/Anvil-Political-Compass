@@ -32,14 +32,14 @@ document.profiles = [
 
     {
         player: 'MKZ',
-        x: .38,
-        y: .04
+        x: .18,
+        y: -.02
     },
 
     {
         player: 'Rae',
-        x: .02,
-        y: .24
+        x: -.27,
+        y: .47
     },
 
     {
@@ -50,7 +50,7 @@ document.profiles = [
 
     {
         player: 'Takeshibox',
-        x: .3,
+        x: -.05,
         y: 1
     },
 
