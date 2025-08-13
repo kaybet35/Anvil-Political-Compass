@@ -154,6 +154,18 @@ document.profiles = [
         player: 'Zaynus',
         x: -.38,
         y: -.25
+    },
+
+    {
+        player: 'Slurp',
+        x: 0.2,
+        y: 0.5
+    },
+
+    {
+        player: 'vuk',
+        x: 0.54,
+        y: 0.75
     }
 
 ];
