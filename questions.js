@@ -11,7 +11,7 @@ document.interview = [
     },
     {
         weight: .75,
-        title: 'I try my best to help the alliance I am on win the wars I play in.',
+        title: 'I strive to do my best to help my alliance win the wars.',
         type: 'sweatiness',
     },
     {
@@ -20,7 +20,7 @@ document.interview = [
         type: 'sweatiness',
     },
     {
-        weight: .5,
+        weight: .25,
         title: 'I think roleplaying hurts the game.',
         type: 'sweatiness',
     },
@@ -45,7 +45,7 @@ document.interview = [
         type: 'sweatiness',
     },
     {
-        weight: .75,
+        weight: .5,
         title: 'I am usually Thane/Lord in the town I am pledged to.',
         type: 'sweatiness',
     },
@@ -76,11 +76,6 @@ document.interview = [
     },
     {
         weight: .25,
-        title: 'I genuinely think the devs have put one of the alliance at a disadvantage.',
-        type: 'loyalist',
-    },
-    {
-        weight: .5,
         title: 'I don\'t think I would have fun playing on a certain alliance.',
         type: 'loyalist',
     },
@@ -91,7 +86,7 @@ document.interview = [
     },
     {
         weight: .75,
-        title: 'I will do boring jobs to help the team I am on win.',
+        title: 'I will do boring tasks to help the team I am on.',
         type: 'sweatiness',
     },
     {
@@ -105,19 +100,9 @@ document.interview = [
         type: 'sweatiness',
     },
     {
-        weight: .75,
-        title: 'I think one alliances is superior to others.',
-        type: 'loyalist',
-    },
-    {
         weight: .25,
         title: 'I often use Anvil Empires Wiki.',
         type: 'sweatiness',
-    },
-    {
-        weight: -.25,
-        title: 'I like playing with neutrals when we are on the same team and I have neutral friends.',
-        type: 'loyalist',
     },
     {
         weight: -.25,
@@ -127,11 +112,6 @@ document.interview = [
     {
         weight: -.25,
         title: 'I will play off-meta sometimes just to have fun, such as building nice looking Homesteads and Fortresses.',
-        type: 'sweatiness',
-    },
-    {
-        weight: -.5,
-        title: 'I will sometimes grief my own team for my own amusement.',
         type: 'sweatiness',
     },
     {
@@ -145,7 +125,7 @@ document.interview = [
         type: 'loyalist',
     },
     {
-        weight: .35,
+        weight: .5,
         title: 'I think people who stop playing during a war because things weren\'t going our way are quitters and or traitors.',
         type: 'sweatiness',
     },
@@ -155,7 +135,7 @@ document.interview = [
         type: 'sweatiness',
     },
     {
-        weight: -1,
+        weight: -0.5,
         title: 'I think there is nothing wrong with loyalist clans switching alliances just for one war.',
         type: 'loyalist',
     },
@@ -165,17 +145,12 @@ document.interview = [
         type: 'sweatiness',
     },
     {
-        weight: .25,
-        title: 'I think one of the alliances has morally, and/or skill-wise, better players.',
-        type: 'loyalist',
-    },
-    {
         weight: .75,
         title: 'I sometimes finish wars feeling like I made a difference for my team and heavily contributed towards the successes it had.',
         type: 'sweatiness',
     },
     {
-        weight: .25,
+        weight: .50,
         title: 'I find people who have been long time loyalists to an alliance respectable for their loyalty.',
         type: 'loyalist',
     },
