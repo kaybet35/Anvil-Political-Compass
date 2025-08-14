@@ -178,6 +178,12 @@ document.profiles = [
         player: 'Spoonanner',
         x: -.35,
         y: -.73
+    },
+
+    {
+        player: 'Ink',
+        x: .42,
+        y: -.67
     }
 
 ];
