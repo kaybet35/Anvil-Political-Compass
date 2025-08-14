@@ -184,6 +184,12 @@ document.profiles = [
         player: 'Ink',
         x: .42,
         y: -.67
+    },
+
+    {
+        player: 'Kallvin',
+        x: .42,
+        y: -.83
     }
 
 ];
