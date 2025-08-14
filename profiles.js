@@ -2,8 +2,8 @@ document.profiles = [
     
     {    
         player: 'Sauldor',
-        x: .46,
-        y: -.1
+        x: .53,
+        y: -.25
     },
 
     {
@@ -163,7 +163,7 @@ document.profiles = [
     },
 
     {
-        player: 'vuk',
+        player: 'vuk/Mern',
         x: 0.54,
         y: 0.75
     },
@@ -196,6 +196,126 @@ document.profiles = [
         player: 'Chaz',
         x: -.1,
         y: -.22
+    },
+
+    {
+        player: 'Medieveman',
+        x: .19,
+        y: -1
+    },
+
+    {
+        player: 'Máximo',
+        x: .35,
+        y: -.1
+    },
+
+    {
+        player: 'AirMike',
+        x: .05,
+        y: -.02
+    },
+
+    {
+        player: 'Shoobe',
+        x: -.34,
+        y: .09
+    },
+
+    {
+        player: 'Oxblood',
+        x: .15,
+        y: .54
+    },
+
+    {
+        player: 'ForgottenTree',
+        x: .58,
+        y: -.93
+    },
+
+    {
+        player: 'TANid',
+        x: 1,
+        y: 1
+    },
+
+    {
+        player: 'KillerFRIEND',
+        x: -.08,
+        y: 0.3
+    },
+
+    {
+        player: 'IndieBubbles',
+        x: .05,
+        y: -.31
+    },
+
+    {
+        player: 'Zikimaru',
+        x: .29,
+        y: .31
+    },
+
+    {
+        player: 'Irina Sheremetev',
+        x: -.02,
+        y: .96
+    },
+
+    {
+        player: 'D.MON',
+        x: .66,
+        y: 0
+    },
+
+    {
+        player: 'Manthys',
+        x: .17,
+        y: .22
+    },
+
+    {
+        player: 'runningDuck',
+        x: .15,
+        y: .86
+    },
+
+    {
+        player: 'Charmz',
+        x: .31,
+        y: -.89
+    },
+
+    {
+        player: 'Rust',
+        x: 0,
+        y: -.58
+    },
+
+    {
+        player: 'Pope IvanL II',
+        x: .55,
+        y: .93
+    },
+
+    {
+        player: 'Josh',
+        x: -.11,
+        y: .11
+    },
+
+    {
+        player: 'Stefmon',
+        x: -.03,
+        y: -.47
+    },
+
+    {
+        player: 'V0DKA',
+        x: .27,
+        y: .43
     }
 
 ];
