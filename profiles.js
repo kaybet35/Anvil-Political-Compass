@@ -328,6 +328,24 @@ document.profiles = [
         player: 'KnightzZ',
         x: -.4,
         y: -.73
+    },
+
+    {
+        player: 'Leooo',
+        x: .58,
+        y: -.97
+    },
+
+    {
+        player: 'vinter',
+        x: -.13,
+        y: 0
+    },
+
+    {
+        player: 'Ein Dark',
+        x: .14,
+        y: .4
     }
 
 ];
