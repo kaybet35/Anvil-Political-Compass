@@ -199,7 +199,7 @@ document.profiles = [
     },
 
     {
-        player: 'Medieveman',
+        player: 'Medievalman',
         x: .19,
         y: -1
     },
