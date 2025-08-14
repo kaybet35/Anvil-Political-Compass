@@ -172,6 +172,12 @@ document.profiles = [
         player: 'DuBonGaz',
         x: 0.58,
         y: 0.46
+    },
+
+    {
+        player: 'Spoonanner',
+        x: -.35,
+        y: -.73
     }
 
 ];
