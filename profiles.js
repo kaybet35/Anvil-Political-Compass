@@ -349,7 +349,7 @@ document.profiles = [
     },
 
     {
-        player: 'Zac Mac Gregor',
+        player: 'Zac Mac-Gregor',
         x: .7,
         y: -.05
     }
