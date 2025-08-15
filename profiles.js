@@ -364,6 +364,12 @@ document.profiles = [
         player: 'Freerk',
         x: -.48,
         y: -.76
+    },
+
+    {
+        player: 'VTitus',
+        x: .18,
+        y: .77
     }
 
 ];
