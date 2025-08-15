@@ -352,6 +352,12 @@ document.profiles = [
         player: 'Zac Mac-Gregor',
         x: .7,
         y: -.05
+    },
+
+    {
+        player: 'Hoid',
+        x: .05,
+        y: .8
     }
 
 ];
