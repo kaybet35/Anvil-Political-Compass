@@ -346,6 +346,12 @@ document.profiles = [
         player: 'Ein Dark',
         x: .14,
         y: .4
+    },
+
+    {
+        player: 'Zac Mac Gregor',
+        x: .7,
+        y: -.05
     }
 
 ];
