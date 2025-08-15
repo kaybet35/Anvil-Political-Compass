@@ -358,6 +358,12 @@ document.profiles = [
         player: 'Hoid',
         x: .05,
         y: .8
+    },
+
+    {
+        player: 'Freerk',
+        x: -.48,
+        y: -.76
     }
 
 ];
