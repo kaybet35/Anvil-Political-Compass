@@ -251,5 +251,8 @@
         setup();
     });
 
-    setup();
+    document.fonts.ready.then(setup).catch(() => {
+        // Fallback: Draw anyway if font loading fails (rare, but handles errors)
+        setup();
+    });
 }());
