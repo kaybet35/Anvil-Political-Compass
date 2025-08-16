@@ -481,6 +481,20 @@ document.profiles = [
         x: .71,
         y: -.7,
         alliance: 'neut'
+    },
+
+    {
+        player: 'Reknar',
+        x: .64,
+        y: .71,
+        alliance: 'rem'
+    },
+
+    {
+        player: 'Slovenian_Cats',
+        x: .15,
+        y: -.54,
+        alliance: 'neut'
     }
 
 ];
