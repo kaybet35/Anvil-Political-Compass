@@ -109,13 +109,13 @@
             }
             else {
                 context.textAlign = 'right';
-                context.fillText(item.player, -32 - 2 - radius - 2, 6);
+                context.fillText(item.player, - radius - 2, 6);
                 var image = new Image;
                 image.src = item.image;
-                var x = parseFloat(width * (item.x + 1) / 2 - radius - 2 - 32 - 2).toFixed();
-                var y = parseFloat(height - height * (item.y + 1) / 2 - 16).toFixed();
+                var x = parseFloat(width * (item.x + 1) / 2 - radius + 38).toFixed();
+                var y = parseFloat(height - height * (item.y + 1) / 2 + 32).toFixed();
                 image.onload = () => {
-                    context.drawImage(image, x, y, 32, 32);
+                    context.drawImage(image, x, y, 16, 16);
                 };
             }
         }

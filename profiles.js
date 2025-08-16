@@ -4,7 +4,8 @@ document.profiles = [
         player: 'Sauldor',
         x: .53,
         y: -.25,
-        alliance: 'neut'
+        alliance: 'neut',
+        image: 'images/profiles/sauldor.jpg'
     },
 
     {
