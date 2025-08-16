@@ -442,6 +442,14 @@ document.profiles = [
         x: .18,
         y: .77,
         alliance: 'rem'
+    },
+
+    {
+        player: 'TheSexyRooster',
+        x: 0,
+        y: 0,
+        alliance: 'anc',
+        position: 'right'
     }
 
 ];
