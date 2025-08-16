@@ -18,22 +18,22 @@
         textHeight = context.measureText('M').width;
 
         context.save();
-        context.fillStyle = '#F9BABA';
+        context.fillStyle = '#fee8e8';
         context.fillRect(0, 0, width / 2, height / 2);
 
-        context.fillStyle = '#92D9F8';
+        context.fillStyle = '#ddf2fd';
         context.fillRect(width / 2, 0, width / 2, height / 2);
 
-        context.fillStyle = '#C8E4BC';
+        context.fillStyle = '#edf6e8';
         context.fillRect(0, height / 2, width / 2, height / 2);
 
-        context.fillStyle = '#D5D587';
+        context.fillStyle = '#f2f1d7';
         context.fillRect(width / 2, height / 2, width / 2 , height / 2);
 
         context.restore();
 
-        drawGrid(width, height, 40, padding, '#eee', 1);
-        drawGrid(width, height, 10, padding, '#eee', 2);
+        drawGrid(width, height, 40, padding, '#fff', 1);
+        drawGrid(width, height, 10, padding, '#fff', 2);
 
         var labels = [
             //{ text: 'Shitposting Loyalist', horizontal: 'left', vertical: 'top', x: 0, y: 0 },
@@ -65,6 +65,14 @@
 
     }
 
+    var allianceColors = {
+        'rem': '#77A6FF',  // Red for 'rem' (example; change as needed)
+        'anc': '#BD9F53', // Example for another alliance
+        'pag': '#82A558', // Example for another
+        // Add more alliances here, e.g., 'neutral': '#151515FF'
+    };
+    var defaultTextColor = '#151515FF';  // Fallback if no alliance or unrecognized
+
     function drawProfile(item, padding) {
 
         var height = canvas.parentNode.clientHeight - padding * 2;
@@ -82,6 +90,8 @@
             radius = 1;
 
         context.font = '14px Jost-Regular'
+        
+        context.fillStyle = allianceColors[item.alliance] || defaultTextColor;
 
         // boy I did a bad job writing this ugly piece of code, it's just left/right justification
         if (item.image != undefined) {
@@ -109,6 +119,21 @@
             }
         }
         else {
+            if (item.position === 'right') {
+                context.textAlign = 'left';
+                context.lineWidth = .2;
+                context.strokeText(item.player, radius + 2, 6);
+                context.fillText(item.player, radius + 2, 6);
+                context.strokeStyle = '#DDDDDDFF';
+            }
+            if (item.position === 'left') {
+                context.textAlign = 'right';
+                context.lineWidth = .2;
+                context.strokeText(item.player, -radius - 2, 6);
+                context.fillText(item.player, -radius - 2, 6);
+                context.strokeStyle = '#DDDDDDFF';
+            }
+        else if (!item.position) {
             if (item.x < 0) {
                 context.textAlign = 'left';
                 context.lineWidth = .2;
@@ -124,6 +149,7 @@
                 context.strokeStyle = '#DDDDDDFF';
             }
         }
+         }
 
         context.beginPath();
         context.arc(0, 0, radius, 0, 2 * Math.PI);
@@ -207,9 +233,9 @@
         }
         context.translate(item.x, item.y);
         context.rotate(item.r * Math.PI / 180);
-        context.fillStyle = '#FFFFFFFF';
-        context.strokeStyle = '#333333FF';
-        context.lineWidth = 3;
+        context.fillStyle = '#EEEEEEFF';
+        context.strokeStyle = '#222222FF';
+        context.lineWidth = 2;
         context.font = '20px Jost-Regular'
 
         if (label)
