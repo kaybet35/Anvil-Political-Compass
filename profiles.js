@@ -214,8 +214,8 @@ document.profiles = [
 
     {
         player: 'Spoonanner',
-        x: -.35,
-        y: -.73,
+        x: 0,
+        y: -.27,
         alliance: 'anc'
     },
 
