@@ -243,7 +243,7 @@ document.profiles = [
         player: 'Medievalman',
         x: .19,
         y: -1,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
