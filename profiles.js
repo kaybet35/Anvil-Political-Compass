@@ -4,21 +4,21 @@ document.profiles = [
         player: 'Sauldor',
         x: .53,
         y: -.25,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
         player: 'kaybet',
         x: .23,
         y: -.24,
-        alliance: 'rem'
+        alliance: 'neut'
     },
 
     {
         player: 'Kapturek',
         x: .09,
         y: -.79,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -137,7 +137,7 @@ document.profiles = [
         player: 'Brandoid',
         x: .82,
         y: -.52,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -151,21 +151,21 @@ document.profiles = [
         player: 'Werans',
         x: .1,
         y: -.87,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
         player: 'Loupi',
         x: -0.21,
         y: -0.37,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
         player: 'Cooltrain',
         x: 0.4,
         y: -0.53,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -222,14 +222,14 @@ document.profiles = [
         player: 'Ink',
         x: .42,
         y: -.67,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
         player: 'Kallvin',
         x: .42,
         y: -.83,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -278,7 +278,7 @@ document.profiles = [
         player: 'ForgottenTree',
         x: .58,
         y: -.93,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -342,7 +342,7 @@ document.profiles = [
         player: 'Charmz',
         x: .31,
         y: -.89,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -391,7 +391,7 @@ document.profiles = [
         player: 'KnightzZ',
         x: -.4,
         y: -.73,
-        alliance: 'anc',
+        alliance: 'neut',
         position: 'left'
     },
 
@@ -399,7 +399,7 @@ document.profiles = [
         player: 'Leooo',
         x: .58,
         y: -.97,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -420,7 +420,7 @@ document.profiles = [
         player: 'Zac Mac-Gregor',
         x: .7,
         y: -.05,
-        alliance: 'anc'
+        alliance: 'neut'
     },
 
     {
@@ -434,7 +434,7 @@ document.profiles = [
         player: 'Freerk',
         x: -.48,
         y: -.76,
-        alliance: 'rem'
+        alliance: 'neut'
     },
 
     {

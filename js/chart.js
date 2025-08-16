@@ -69,6 +69,7 @@
         'rem': '#77A6FF',  // Red for 'rem' (example; change as needed)
         'anc': '#BD9F53', // Example for another alliance
         'pag': '#82A558', // Example for another
+        'neut': '#788674', // Example for another
         // Add more alliances here, e.g., 'neutral': '#151515FF'
     };
     var defaultTextColor = '#151515FF';  // Fallback if no alliance or unrecognized
