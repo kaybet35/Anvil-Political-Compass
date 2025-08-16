@@ -450,6 +450,14 @@ document.profiles = [
         y: 0,
         alliance: 'anc',
         position: 'right'
+    },
+
+    {
+        player: 'Joshua Graham',
+        x: -.07,
+        y: .36,
+        alliance: 'pag',
+        position: 'right'
     }
 
 ];
