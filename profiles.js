@@ -5,7 +5,7 @@ document.profiles = [
         x: .53,
         y: -.25,
         alliance: 'neut',
-        image: 'images/profiles/sauldor.jpg'
+        image: 'images/profiles/sauldor.png'
     },
 
     {
