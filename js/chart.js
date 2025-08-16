@@ -18,16 +18,16 @@
         textHeight = context.measureText('M').width;
 
         context.save();
-        context.fillStyle = '#fee8e8';
+        context.fillStyle = '#D9E2ED';
         context.fillRect(0, 0, width / 2, height / 2);
 
-        context.fillStyle = '#ddf2fd';
+        context.fillStyle = '#F0F4F7';
         context.fillRect(width / 2, 0, width / 2, height / 2);
 
-        context.fillStyle = '#edf6e8';
+        context.fillStyle = '#E4ECE1';
         context.fillRect(0, height / 2, width / 2, height / 2);
 
-        context.fillStyle = '#f2f1d7';
+        context.fillStyle = '#F8F0DE';
         context.fillRect(width / 2, height / 2, width / 2 , height / 2);
 
         context.restore();
