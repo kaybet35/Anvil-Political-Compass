@@ -474,6 +474,13 @@ document.profiles = [
         x: .87,
         y: .7,
         alliance: 'pag'
+    },
+
+    {
+        player: 'Stripped',
+        x: .71,
+        y: -.7,
+        alliance: 'neut'
     }
 
 ];
