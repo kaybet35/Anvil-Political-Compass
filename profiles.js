@@ -458,6 +458,21 @@ document.profiles = [
         y: .36,
         alliance: 'pag',
         position: 'right'
+    },
+
+    {
+        player: 'Hero Luka',
+        x: -.12,
+        y: -.78,
+        alliance: 'neut',
+        position: 'left'
+    },
+
+    {
+        player: 'Everett19',
+        x: .87,
+        y: .7,
+        alliance: 'pag'
     }
 
 ];
