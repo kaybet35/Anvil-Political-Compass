@@ -357,7 +357,8 @@ document.profiles = [
         player: 'Pope IvanL II',
         x: .55,
         y: .93,
-        alliance: 'rem'
+        alliance: 'rem',
+        position: 'right'
     },
 
     {
@@ -502,6 +503,13 @@ document.profiles = [
         x: -.51,
         y: -.91,
         alliance: 'anc'
+    },
+
+    {
+        player: 'Tosti',
+        x: .49,
+        y: .93,
+        alliance: 'rem'
     }
 
 ];
