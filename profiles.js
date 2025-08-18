@@ -495,6 +495,13 @@ document.profiles = [
         x: .15,
         y: -.54,
         alliance: 'neut'
+    },
+
+    {
+        player: 'Pirate Lord',
+        x: -.51,
+        y: -.91,
+        alliance: 'anc'
     }
 
 ];
