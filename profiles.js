@@ -510,6 +510,13 @@ document.profiles = [
         x: .49,
         y: .93,
         alliance: 'rem'
+    },
+
+    {
+        player: '$uperPanchoMan',
+        x: -.08,
+        y: -.08,
+        alliance: 'neut'
     }
 
 ];
